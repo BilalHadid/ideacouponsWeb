@@ -1,0 +1,20 @@
+.thumbNailView img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: -50px;
+}
+.thumbNail img {
+  height: 60px;
+  width: 60px;
+  margin-left: -20px;
+}
+.thumbNail1 img {
+  height: 80px;
+  width: 180px;
+  margin-left: -40px;
+}
+.Rasdio RadioButtonGroupInput {
+  height: 10%;
+  display: block;
+}
