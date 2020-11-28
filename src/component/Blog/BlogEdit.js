@@ -43,6 +43,8 @@ const BlogEdit = (props) => {
         >
           <ImageField source="image" title="images" />
         </ImageInput>
+        <span>OR</span>
+        <TextInput source="image" title="images URL" />
         <RichTextInput source="description" />
         <DateInput source="timestamp" />
 

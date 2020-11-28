@@ -19,7 +19,7 @@ const SliderList = (props) => {
           label="SliderImage"
           className="thumbNail1"
         />
-        <ImageField source="url" label="all" className="thumbNail1" />
+        {/* <ImageField source="url" label="all" className="thumbNail1" /> */}
 
         <EditButton basePath="/slider" />
         <DeleteButton basePath="/slider" />

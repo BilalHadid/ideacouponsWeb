@@ -1,0 +1,434 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "title": "Post Three",
+      "body": "This is the post body",
+      "status": false,
+      "icon": "fa fa-intersex"
+    },
+    {
+      "id": "XXSedFV",
+      "title": "Post Four",
+      "body": "This is the body",
+      "status": true,
+      "icon": "fa fa-intersex"
+    },
+    {
+      "title": "Post",
+      "body": "this is post for",
+      "status": true,
+      "id": "Rbcf0hg",
+      "icon": "fa fa-intersex"
+    },
+    {
+      "title": "Alpha It ",
+      "body": "Hello",
+      "status": true,
+      "id": "1qNAxic",
+      "icon": "fa fa-intersex"
+    },
+    {
+      "title": "Alpha It ",
+      "body": "Hello World",
+      "id": "njv_jFC",
+      "status": false
+    },
+    {
+      "icon": "fa fa-camera",
+      "title": "hello",
+      "body": "body",
+      "id": "7XOEyEX"
+    },
+    {
+      "icon": "fa fa-file-picture-o ",
+      "title": "Art & Design",
+      "body": "Hello",
+      "status": true,
+      "id": "dzeFh8g"
+    },
+    {
+      "icon": "fa fa-heart",
+      "title": "Helo",
+      "body": "Body",
+      "id": "dBzy0UM"
+    },
+    {
+      "icon": "fa fa-adn",
+      "title": "Alpha It ",
+      "body": "dd",
+      "status": true,
+      "id": "ff0o3OH"
+    },
+    {
+      "icon": "fa fa-adn",
+      "title": "Alpha It ",
+      "body": "hh",
+      "id": "obKbRvF"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Hadid",
+      "email": "john@gmail.com",
+      "mobile": "0348202535",
+      "password": "abc",
+      "administrator": true,
+      "image": "blob:http://localhost:3000/672de3cf-bbdb-4c47-a29e-83280baf3f3d",
+      "gender": "male",
+      "birth": "2020-11-05",
+      "your Website": "www.ideacoupon.com",
+      "yourAddress": "<p>dssaad</p>",
+      "Biography": "<p>dadafdf</p>",
+      "rawFile": {
+        "path": "Screenshot from 2020-10-22 23-55-13.png"
+      },
+      "images": "Screenshot from 2020-10-22 23-55-13.png"
+    },
+    {
+      "rawFile": {
+        "path": "Screenshot from 2020-11-19 02-28-28.png"
+      },
+      "image": "blob:http://localhost:3000/3462b4ea-92f0-4efe-ab5b-7c56cca7db8b",
+      "images": "Screenshot from 2020-11-19 02-28-28.png",
+      "id": "-gkwxz3",
+      "name": "Faizan",
+      "email": "jhon@gmail.com",
+      "mobile": "03152565",
+      "password": "123",
+      "birth": "2020-11-24",
+      "gender": "male"
+    }
+  ],
+  "networks": [
+    {
+      "id": "1",
+      "name": "Bilal Hadid",
+      "username": "bilal",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "Bilal Hadid",
+      "username": "bilal",
+      "password": "123"
+    },
+    {
+      "id": "3",
+      "name": "Bilal Hadid",
+      "username": "bilal",
+      "password": "123"
+    },
+    {
+      "name": "Paid",
+      "username": "Jhon",
+      "password": "abc",
+      "id": "hMH2XST"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Easter Day",
+      "url": "https://www.pricecutoff.com/category-dtl/easter-deals",
+      "expire": "2020-03-29"
+    },
+    {
+      "id": "2",
+      "name": "Mother Day",
+      "url": "https://www.pricecutoff.com/category-dtl/easter-deals",
+      "expire": "2020-03-29"
+    },
+    {
+      "name": "Mother Day",
+      "url": "www.pricecutoff.com",
+      "id": "zpxrEHJ"
+    }
+  ],
+  "store": [
+    {
+      "title": "Aproved Vitamins",
+      "url": "https://ideacoupons.com",
+      "Tracking Link": "https://ideacoupons.com",
+      "metatitle": "haddi",
+      "metaKeywords": "njjsbjsabj",
+      "metaDisc": "hjhjdgj",
+      "SelectNetwork": "2",
+      "Address": "Shahr e Faisal,Karachi",
+      "Description": "Shahr e Faisal,Karachi",
+      "image": "https://pricecutoff.com/public/images/store/1585918856approvedvitamins.png",
+      "featured": true,
+      "id": "1",
+      "name": "Aproved Vitamins",
+      "leftTime": "2-30-20",
+      "status": true
+    },
+    {
+      "title": "Ammie Skin Care ",
+      "url": "https://ideacoupons.com",
+      "Tracking Link": "https://ideacoupons.com",
+      "metatitle": "haddi",
+      "metaKeywords": "njjsbjsabj",
+      "metaDisc": "hjhjdgj",
+      "SelectNetwork": "2",
+      "Address": "Shahr e Faisal,Karachi",
+      "Description": "Shahr e Faisal,Karachi",
+      "image": "https://pricecutoff.com/public/images/store/1585918265amieskincare.png",
+      "featured": true,
+      "name": "Ammie Skin Care ",
+      "id": "2",
+      "leftTime": "2-30-20"
+    },
+    {
+      "title": "Shoe Embassy  ",
+      "url": "https://ideacoupons.com",
+      "Tracking Link": "https://ideacoupons.com",
+      "metatitle": "haddi",
+      "metaKeywords": "njjsbjsabj",
+      "metaDisc": "hjhjdgj",
+      "SelectNetwork": "1",
+      "Address": "Shahr e Faisal,Karachi",
+      "Description": "Shahr e Faisal,Karachi",
+      "image": "https://pricecutoff.com/public/images/store/1585737922shoe%20embassy.png",
+      "featured": true,
+      "id": "3",
+      "name": "Hadid",
+      "leftTime": "2-30-20"
+    },
+    {
+      "rawFile": {
+        "path": "Screenshot from 2020-10-09 02-51-41.png"
+      },
+      "image": "https://i.pinimg.com/originals/c7/91/14/c7911473aab5fc77a12de155eb4ab651.jpg",
+      "images": "Screenshot from 2020-10-09 02-51-41.png",
+      "name": "ShoeEmbassy",
+      "title": "Alpha It ",
+      "url": "https://ideacoupons.com",
+      "Tracking Link": "https://ideacoupons.com",
+      "metatitle": "haddi",
+      "metaKeywords": "njjsbjsabj",
+      "metaDisc": "hjhjdgj",
+      "Description": "<p>hjbj</p>",
+      "SelectNetwork": "2",
+      "featured": true,
+      "status": true,
+      "id": "TP32AxN"
+    }
+  ],
+  "forumcategory": [
+    {
+      "id": "1",
+      "type": "coupon",
+      "title": "General Coupon",
+      "detail": "General Coupon",
+      "status": false
+    },
+    {
+      "type": "coupon",
+      "title": "Alpha It ",
+      "detail": "helo",
+      "status": true,
+      "id": "eI9PVnr"
+    },
+    {
+      "type": "Deal",
+      "title": "Alpha It ",
+      "detail": "helo",
+      "status": true,
+      "id": "oymdK7b"
+    }
+  ],
+  "deals": [
+    {
+      "id": "1",
+      "image": "https://www.hitinpakistan.com/wp-content/uploads/2019/08/Deals-discounts.jpg",
+      "Description": "coupon",
+      "ForumCategory": "eI9PVnr",
+      "DealName": "30% off Over $185+...",
+      "store": "1",
+      "category": "XXSedFV",
+      "user": "1",
+      "price": "",
+      "dealexpire": "2020-11-03",
+      "dealURL": "https://ideacoupons.com/",
+      "fetured": false,
+      "Verified": true,
+      "status": false,
+      "dealExclusive": true,
+      " ": "welcome"
+    }
+  ],
+  "CouponDeal": [
+    {
+      "id": "1",
+      "image": "https://ideacoupons.com/wp-content/uploads/2020/08/certified-watch-store.jpg",
+      "type": "coupon",
+      "ForumCategory": "1",
+      "title": "30% off Over $185+...",
+      "store": "1",
+      "category": "Rbcf0hg",
+      "user": "1",
+      "couponcode": "Welcome",
+      "dealexpire": "2020-11-03",
+      "dealStart": "2020-10-05",
+      "dealURL": "https://ideacoupons.com/",
+      "fetured": false,
+      "Verified": true,
+      "status": false,
+      "dealExclusive": true,
+      "couponscode": "welcome"
+    },
+    {
+      "id": "2",
+      "image": "https://ideacoupons.com/wp-content/uploads/2020/08/clotstudiologo.jpg",
+      "type": "coupon",
+      "ForumCategory": "eI9PVnr",
+      "title": "50% Off Face Mask Respirator Comfort 50 Pack",
+      "store": "1",
+      "category": "dzeFh8g",
+      "user": "1",
+      "couponcode": "Welcome15",
+      "dealexpire": "2020-11-03",
+      "dealStart": "2020-10-05",
+      "dealURL": "https://ideacoupons.com/",
+      "fetured": true,
+      "Verified": true,
+      "status": false,
+      "dealExclusive": true
+    },
+    {
+      "id": "3",
+      "image": "https://ideacoupons.com/wp-content/uploads/2020/08/cbr.jpg",
+      "type": "coupon",
+      "ForumCategory": "eI9PVnr",
+      "title": "10% Off SiteWide + Free Shipping",
+      "store": "2",
+      "category": "1qNAxic",
+      "user": "1",
+      "couponcode": "TourList",
+      "dealexpire": "2020-11-03",
+      "dealStart": "2020-10-05",
+      "dealURL": "https://ideacoupons.com/",
+      "fetured": true,
+      "Verified": true,
+      "status": false,
+      "dealExclusive": true
+    }
+  ],
+  "discussion": [
+    {
+      "id": "1",
+      "image": null,
+      "type": "coupon",
+      "title": "",
+      "detail": "",
+      "user": "1",
+      "featured": false,
+      "status": false,
+      "Action": false,
+      "fetured": true
+    }
+  ],
+  "blog": [
+    {
+      "id": "1",
+      "image": "https://cdn4.wpbeginner.com/wp-content/uploads/2018/03/revealed-most-popular-types-of-blogs-1.png",
+      "title": "Alpha It ",
+      "description": "<p>bhbb</p>",
+      "created": null,
+      "status": true,
+      "timestamp": "2020-11-19",
+      "tag": "coupon",
+      "rawFile": {
+        "path": "backImg.jpg"
+      },
+      "images": "backImg.jpg",
+      "user": "1"
+    }
+  ],
+  "comment": [
+    {
+      "id": "1",
+      "comments": "",
+      "title": "",
+      "user": "",
+      "repliedto": "",
+      "comment": "",
+      "status": "",
+      "Action": ""
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "Category": "",
+      "Question": "",
+      "Answer": "",
+      "Action": false
+    }
+  ],
+  "pages": [
+    {
+      "id": "1",
+      "title": "About Us",
+      "body": "About UsPricecutoff has started the business of o...",
+      "footerWidget": "Widget1"
+    }
+  ],
+  "homebanner": [
+    {
+      "rawFile": {
+        "path": "LogoShoeStore.jpg"
+      },
+      "image": "blob:http://localhost:3000/d1913981-f26e-4a1b-aec7-06e651e1c185",
+      "images": "LogoShoeStore.jpg",
+      "BannerName": "HomeSlider1",
+      "BannerHeding": "BEST DEALS AND COUPONS AT PRICECUTOFF",
+      "id": "9bV9bdU"
+    }
+  ],
+  "slider": [
+    {
+      "id": "1",
+      "image": "https://blog.bannersnack.com/wp-content/uploads/2018/11/agency-picture-slideshow-768x404.png",
+      "url": "https://blog.bannersnack.com/wp-content/uploads/2018/11/agency-picture-slideshow-768x404.png"
+    },
+    {
+      "id": "2",
+      "image": "https://blog.bannersnack.com/wp-content/uploads/2018/11/omega-responsive-image-slider-1024x566.png",
+      "url": "https://blog.bannersnack.com/wp-content/uploads/2018/11/omega-responsive-image-slider-1024x566.png"
+    },
+    {
+      "image": "https://blog.bannersnack.com/wp-content/uploads/2018/11/interior-design-slideshow-768x420.png",
+      "url": "https://media.gettyimages.com/photos/wazir-khan-mosque-lahore-punjab-pakistan-picture-id637623678?s=612x612",
+      "id": "gVw_8Xr"
+    },
+    {
+      "image": "https://www.newcoupons.info/wp-content/uploads/2014/01/namecheap-20-off-renewal-coupon.jpg",
+      "id": "NHJk7qb"
+    }
+  ],
+  "country": [
+    {
+      "id": "1",
+      "Name": "UK"
+    },
+    {
+      "id": "2",
+      "Name": "US"
+    },
+    {
+      "id": "3",
+      "Name": "Germany"
+    },
+    {
+      "id": "4",
+      "Name": "Brazil"
+    },
+    {
+      "id": "5",
+      "Name": "NewZealand"
+    }
+  ]
+}

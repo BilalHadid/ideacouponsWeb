@@ -3,7 +3,6 @@ import {
   Create,
   SimpleForm,
   TextInput,
-  ImageInput,
   BooleanInput,
   SelectInput,
 } from "react-admin";

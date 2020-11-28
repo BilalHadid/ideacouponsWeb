@@ -15,7 +15,7 @@ const SliderEdit = (props) => {
         <ImageInput source="image" label="desc" accept="">
           <ImageField source="image" src="url" title="desc" />
         </ImageInput>
-        <TextInput source="url" />
+        <TextInput source="image" label="Enter URL For SLider" />
       </SimpleForm>
     </Edit>
   );

@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  List,
-  Datagrid,
-  TextField,
-  EditButton,
-  DeleteButton,
-  BooleanField,
-  ImageField,
-  RichTextField,
-  DateField,
-} from "react-admin";
+import { List, Datagrid, TextField, BooleanField } from "react-admin";
 const FaqList = (props) => {
   return (
     <List {...props}>

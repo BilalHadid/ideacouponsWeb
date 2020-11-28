@@ -46,7 +46,7 @@ const FeturedCoupons = () => {
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/CouponDeal")
+      .get("http://localhost:5001/CouponDeal")
       .then((res) => {
         setPost(res.data);
       })

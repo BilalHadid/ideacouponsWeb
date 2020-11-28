@@ -4,13 +4,14 @@ import Footer from "./footer";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import FeturedCoupons from "./FeturedCoupons";
-
+import StoreCoupons from "./StoreCoupons";
+import StoreDeal from "./StoreDeal";
 const StoreDetail = ({ pass }) => {
   const [post, setPost] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/store")
+      .get("http://localhost:5001/store")
       .then((res) => {
         console.log(res.data);
         setPost(res.data);
@@ -33,7 +34,8 @@ const StoreDetail = ({ pass }) => {
       <div>
         <h1>{poster}</h1>
         <div>
-          <FeturedCoupons />
+          <StoreCoupons />
+          <StoreDeal />
         </div>
         <div
           style={{

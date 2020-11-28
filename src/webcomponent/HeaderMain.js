@@ -12,19 +12,17 @@ import ImageMain from "./ImageMain";
 import FeturedCoupons from "./FeturedCoupons";
 import Footer from "./footer";
 import { Link } from "react-router-dom";
+import Searcho from "./search";
 
 const HeaderMain = () => {
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/slider")
+      .get("http://localhost:5001/slider")
       .then((res) => {
-        console.log(res.data);
         setPost(res.data);
       })
-      .catch((err) => {
-        console.log(err);
-      });
+      .catch((err) => {});
   });
   return (
     <div>
@@ -99,19 +97,22 @@ const HeaderMain = () => {
         </div>
         <div class="search-container">
           <form>
+            <Searcho />
+          </form>
+          {/* <form>
             <input type="text" placeholder="Search.." name="search" />
             <button type="submit">
               <i class="fa fa-search"></i>
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
       <div>
         <header>
           <section>
-            <a href="#" id="logo" target="_blank">
+            <Link to="/" id="logo" target="_blank">
               <img src={avator} alt="alt" />
-            </a>
+            </Link>
 
             <label for="toggle-1" className="toggle-menu">
               <ul>
@@ -139,7 +140,7 @@ const HeaderMain = () => {
                   <Link to="/blogs">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/admin">Admin</Link>
+                  <Link to="/admin#/Login">login</Link>
                 </li>
               </ul>
             </nav>

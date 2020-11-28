@@ -12,6 +12,7 @@ import "../../App.css";
 import "reactjs-popup/dist/index.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Popup from "reactjs-popup";
+import AllDeal from "./AllDeal";
 
 const useStyles = makeStyles({
   root: {
@@ -31,7 +32,7 @@ const AllCoupons = () => {
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/CouponDeal")
+      .get("http://localhost:5001/CouponDeal")
       .then((res) => {
         setPost(res.data);
       })
@@ -145,6 +146,7 @@ const AllCoupons = () => {
             </Card>
           );
         })}
+        <AllDeal />
       </div>
     </div>
   );

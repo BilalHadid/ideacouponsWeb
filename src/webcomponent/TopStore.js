@@ -40,10 +40,11 @@ const TopStore = () => {
       // instead of a settings object
     ],
   };
+
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/store")
+      .get("http://localhost:5001/store")
       .then((res) => {
         console.log(res.data);
         setPost(res.data);

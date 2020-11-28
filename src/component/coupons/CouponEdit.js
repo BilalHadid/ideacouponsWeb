@@ -77,6 +77,11 @@ const CouponEdit = (props) => {
         >
           <ImageField source="image" title="images" />
         </ImageInput>
+        <span>OR</span>
+        <TextInput
+          source="image"
+          label="Enter URL if You're not upload image"
+        />
         <TextInput source="couponscode" />
         <TextInput source="dealURL" />
         <DateInput source="dealexpire" />

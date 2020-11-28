@@ -63,6 +63,7 @@ import CountryCreate from "./component/Country/CountryCreate";
 function Main() {
   return (
     <Admin
+      title="Idea Coupon"
       authProvider={authProvider}
       dashboard={Dashbord}
       dataProvider={restProvider("http://localhost:3000")}

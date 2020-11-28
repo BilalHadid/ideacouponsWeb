@@ -5,15 +5,10 @@ import {
   TextField,
   EditButton,
   DeleteButton,
-  useTranslate,
   Filter,
   SearchInput,
   ReferenceInput,
   SelectInput,
-  TopToolbar,
-  SortButton,
-  CreateButton,
-  ExportButton,
 } from "react-admin";
 
 const ProductFilter = (props) => {

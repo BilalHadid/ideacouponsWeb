@@ -75,6 +75,11 @@ const DealCreate = (props) => {
         >
           <ImageField source="image" title="images" />
         </ImageInput>
+        <span>OR</span>
+        <TextInput
+          source="image"
+          label="Enter URL if You're not upload image"
+        />
         {/* <ImageInput
           source="data.pictures"
           label="Images"

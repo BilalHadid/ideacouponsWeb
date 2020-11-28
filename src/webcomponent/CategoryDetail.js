@@ -4,13 +4,15 @@ import axios from "axios";
 import Header from "./Header";
 import Footer from "./footer";
 import FetureCoupons from "./FeturedCoupons";
+import CategCoupon from "./CategCoupon";
+import CategDeal from "./CategDeal";
 
 export const CategoryDetail = ({ pass }) => {
   const [post, setPost] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/posts")
+      .get("http://localhost:5001/posts")
       .then((res) => {
         console.log(res.data);
         setPost(res.data);
@@ -31,7 +33,8 @@ export const CategoryDetail = ({ pass }) => {
       <Header />
       <h1>{Title}</h1>
       <div>
-        <FetureCoupons />
+        <CategCoupon />
+        <CategDeal />
       </div>
       <div
         style={{

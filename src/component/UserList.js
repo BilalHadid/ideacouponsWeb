@@ -1,4 +1,7 @@
 import React from "react";
+
+import { cloneElement, useMemo } from "react";
+import PropTypes from "prop-types";
 import {
   List,
   Datagrid,
@@ -13,8 +16,14 @@ import {
   Filter,
   SearchInput,
   TextInput,
+  useListContext,
+  TopToolbar,
+  CreateButton,
+  ExportButton,
+  Button,
+  sanitizeListRestProps,
 } from "react-admin";
-
+import IconEvent from "@material-ui/icons/Event";
 import "./user.css";
 
 const PostFilter = (props) => (
@@ -23,9 +32,57 @@ const PostFilter = (props) => (
   </Filter>
 );
 
-const UserList = (props) => {
+const ListActions = (props) => {
+  const { className, exporter, filters, maxResults, ...rest } = props;
+  const {
+    currentSort,
+    resource,
+    displayedFilters,
+    filterValues,
+    hasCreate,
+    basePath,
+    selectedIds,
+    showFilter,
+    total,
+  } = useListContext();
   return (
-    <List {...props} filters={<PostFilter />}>
+    <TopToolbar className={className} {...sanitizeListRestProps(rest)}>
+      {filters &&
+        cloneElement(filters, {
+          resource,
+          showFilter,
+          displayedFilters,
+          filterValues,
+          context: "button",
+        })}
+      <CreateButton basePath={basePath} />
+      <ExportButton
+        disabled={total === 0}
+        resource={resource}
+        sort={currentSort}
+        filterValues={filterValues}
+        maxResults={maxResults}
+      />
+      {/* Add your custom actions */}
+      <Button
+        onClick={() => {
+          alert("Your custom action");
+        }}
+        label="Show calendar"
+      >
+        <IconEvent />
+      </Button>
+    </TopToolbar>
+  );
+};
+
+const UserList = ({ permissions, ...props }) => {
+  return (
+    <List
+      {...props}
+      filters={<PostFilter />}
+      sort={{ field: "name", order: "DESC" }}
+    >
       <Datagrid>
         <TextField source="id" />
         <TextField source="name" />
@@ -39,8 +96,11 @@ const UserList = (props) => {
         <TextField source="your Website" />
         <RichTextField source="yourAddress" />
         <RichTextField source="Biography" />
-        <EditButton basePath="/users" />
-        <DeleteButton basePath="/users" />
+        {permissions === "admin" ? (
+          <EditButton basePath="/users" />
+        ) : (
+          <DeleteButton basePath="/users" />
+        )}
       </Datagrid>
     </List>
   );

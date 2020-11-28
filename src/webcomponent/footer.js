@@ -1,6 +1,7 @@
 import React from "react";
 import "./foot.css";
 import img1 from "../webcomponent/logo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
@@ -45,9 +46,9 @@ const Footer = () => {
               <div className="col-xl-4 col-lg-4 mb-50">
                 <div className="footer-widget">
                   <div className="footer-logo">
-                    <a href="https://github.com/bilalhadid">
+                    <Link to="/">
                       <img src={img1} className="img-fluid" alt="logo" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="footer-text" style={{ width: "50%" }}>
                     <p>
@@ -77,34 +78,26 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="https://github.com/bilalhadid">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">Categories</a>
+                      <Link to="/categories">Categories</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">Coupons</a>
+                      <Link to="/coupons">Coupons</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">Deals</a>
+                      <Link to="/coupons">Deals</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">Store</a>
+                      <Link to="/stores">Store</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">About us</a>
+                      <Link to="/aboutus">About us</Link>
                     </li>
+
                     <li>
-                      <a href="https://github.com/bilalhadid">Our Services</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/bilalhadid">Expert Team</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/bilalhadid">Contact us</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/bilalhadid">Latest News</a>
+                      <Link to="/contact">Contact us</Link>
                     </li>
                   </ul>
                 </div>
@@ -141,19 +134,17 @@ const Footer = () => {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="https://github.com/bilalhadid">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">Terms</a>
+                      <Link to="/terms">Terms</Link>
                     </li>
                     <li>
-                      <a href="https://github.com/bilalhadid">Privacy</a>
+                      <Link to="/privacy">Privacy</Link>
                     </li>
+
                     <li>
-                      <a href="https://github.com/bilalhadid">Policy</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/bilalhadid">Contact</a>
+                      <Link to="/contactus">Contact</Link>
                     </li>
                   </ul>
                 </div>

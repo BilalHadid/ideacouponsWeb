@@ -6,7 +6,7 @@ const MainCategories = () => {
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/posts")
+      .get("http://localhost:5001/posts")
       .then((res) => {
         console.log(res.data);
         setPost(res.data);
@@ -27,8 +27,12 @@ const MainCategories = () => {
           return (
             <div>
               <Card className="catCard">
-                {/* <i class="fa fa-address-book" aria-hidden="true"></i> */}
-                <img src={post.image} alt="bilal" />
+                <i
+                  style={{ color: "#ff444a", fontSize: "35px" }}
+                  className={post.icon}
+                  aria-hidden="true"
+                ></i>
+                {/* <img src={post.image} alt="bilal" /> */}
               </Card>
 
               <Link

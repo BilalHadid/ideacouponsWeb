@@ -13,7 +13,8 @@ const SliderCreate = (props) => {
         <ImageInput source="image" label="desc" accept="">
           <ImageField source="image" src="url" title="desc" />
         </ImageInput>
-        <TextInput source="url" />
+        <span>OR</span>
+        <TextInput source="image" label="URL IMAGE ENTER" />
       </SimpleForm>
     </Create>
   );

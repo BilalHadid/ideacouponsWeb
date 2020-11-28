@@ -152,6 +152,11 @@ const CouponCreate = (props) => {
         >
           <ImageField source="image" title="images" />
         </ImageInput>
+        <span>OR</span>
+        <TextInput
+          source="image"
+          label="Enter URL if You're not upload image"
+        />
         <TextInput source="dealURL" />
         <BooleanInput source="fetured" />
         <BooleanInput source="dealExclusive" />

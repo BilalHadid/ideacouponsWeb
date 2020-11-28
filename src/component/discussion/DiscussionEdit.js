@@ -7,7 +7,6 @@ import {
   SelectInput,
   ImageField,
   ImageInput,
-  DateInput,
   ReferenceInput,
 } from "react-admin";
 const DiscussionEdit = (props) => {

@@ -9,9 +9,8 @@ import {
   RadioButtonGroupInput,
   DateInput,
   ReferenceInput,
-  SelectInput,
 } from "react-admin";
-import { Card } from "@material-ui/core";
+// import { Card } from "@material-ui/core";
 import RichTextInput from "ra-input-rich-text";
 import "../user.css";
 
@@ -27,7 +26,7 @@ const StoreCreate = (props) => {
         <TextInput source="metaKeywords" />
         <TextInput source="metaDisc" />
         <RichTextInput source="Description" />
-        <Card className="Rasdio">
+        <div className="Rasdio" style={{ width: "20%" }}>
           {/* <RadioButtonGroupInput
             source="SelectNetwork"
             choices={[
@@ -40,13 +39,15 @@ const StoreCreate = (props) => {
             source="SelectNetwork"
             reference="networks"
           >
-            <SelectInput optionText="name" />
+            <RadioButtonGroupInput optionText="name" />
           </ReferenceInput>
-        </Card>
+        </div>
         <DateInput source="leftTime" />
         {/* <ImageInput source="image" label="desc" accept="">
           <ImageField source="image" src="url" title="desc" />
         </ImageInput> */}
+        <TextInput source="image" label="Enter Url for Image" />
+        <span>OR</span>
         <ImageInput
           source=""
           label="title"

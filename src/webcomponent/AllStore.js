@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Card } from "@material-ui/core";
+// import { Card } from "@material-ui/core";
 import { Link } from "react-router-dom";
 const AllStore = () => {
-  const [search, setSearch] = useState("");
+  // const [search, setSearch] = useState("");
   const [alphabel, setAlphabet] = useState("");
   //   const onSearchInputChange = (e) => {
   //     setSearch(e.target.value);
@@ -58,7 +58,7 @@ const AllStore = () => {
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/store")
+      .get("http://localhost:5001/store")
       .then((res) => {
         setPost(res.data);
       })
@@ -68,16 +68,7 @@ const AllStore = () => {
   const filteredList = filterItems(post);
   return (
     <div>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginLeft: "15%",
-          marginRight: "15%",
-        }}
-      >
-        {prepareAlphabets()}
-      </div>
+      <div className="alpha">{prepareAlphabets()}</div>
       <h1>All Stores</h1>
 
       <div className="filterList">

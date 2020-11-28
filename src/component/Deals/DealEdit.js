@@ -77,6 +77,11 @@ const DealEdit = (props) => {
         >
           <ImageField source="image" title="images" />
         </ImageInput>
+        <span>OR</span>
+        <TextInput
+          source="image"
+          label="Enter URL if You're not upload image"
+        />
         <TextInput source="price" />
         <TextInput source="Discount" />
         <DateInput source="dealexpire" />

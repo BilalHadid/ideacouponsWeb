@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import avator from "./logo.png";
 import "../App.css";
 import HomeIcon from "@material-ui/icons/Home";
@@ -7,8 +7,23 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import PinterestIcon from "@material-ui/icons/Pinterest";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { Link } from "react-router-dom";
+import Searcho from "./search";
+import firebase from "./firebase";
+import axios from "axios";
 
 const Header = () => {
+  // const [post, setPost] = useState([]);
+  // useEffect(() => {
+  //   axios
+  //     .get("https://ideacouponsdatabase.firebaseio.com//store")
+  //     .then((res) => {
+  //       console.log(res.data);
+  //       setPost(res.data);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // });
   return (
     <div>
       <div className="topHead">
@@ -82,10 +97,11 @@ const Header = () => {
         </div>
         <div class="search-container">
           <form>
-            <input type="text" placeholder="Search.." name="search" />
+            {/* <input type="text" placeholder="Search.." name="search" />
             <button type="submit">
               <i class="fa fa-search"></i>
-            </button>
+            </button> */}
+            <Searcho />
           </form>
         </div>
       </div>
@@ -122,7 +138,7 @@ const Header = () => {
                   <Link to="/blogs">Blog</Link>
                 </li>
                 <li>
-                  <Link to="/admin">Admin</Link>
+                  <Link to="/admin#/login">Login</Link>
                 </li>
               </ul>
             </nav>

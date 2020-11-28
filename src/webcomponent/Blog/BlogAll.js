@@ -33,7 +33,7 @@ const BlogAll = () => {
   const [post, setPost] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/blog")
+      .get("http://localhost:5001/blog")
       .then((res) => {
         setPost(res.data);
       })

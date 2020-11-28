@@ -6,9 +6,7 @@ import {
   ImageField,
   ImageInput,
   BooleanInput,
-  DateInput,
 } from "react-admin";
-import RichTextInput from "ra-input-rich-text";
 const UserCreate = (props) => {
   return (
     <Create title="Create a new User" {...props}>
