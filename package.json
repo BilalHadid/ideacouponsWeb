@@ -1,7 +1,7 @@
 {
   "name": "client-coupon",
   "proxy": "http://localhost:5001",
-  "homepage": "https://ideacoupons.com",
+  "homepage": "https://BilalHadid.github.io/ideacoupon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
