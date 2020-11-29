@@ -67,6 +67,7 @@ function Main() {
       authProvider={authProvider}
       dashboard={Dashbord}
       dataProvider={restProvider("http://localhost:3000")}
+      // dataProvider={firebaseDataProvider(firebase, settings)}
     >
       <Resource
         name="posts"

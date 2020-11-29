@@ -9,6 +9,9 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import Popup from "reactjs-popup";
 import "../App.css";
 import axios from "axios";
+import firebase from "firebase";
+import { firebaseConfig } from "../firebaseConfig";
+firebase.initializeApp(firebaseConfig);
 const useStyles = makeStyles((theme) => ({
   root: {
     boxShadow: "#88888",
@@ -45,12 +48,16 @@ const FeturedCoupons = () => {
   const [copy, setCopy] = useState(false);
   const [post, setPost] = useState([]);
   useEffect(() => {
-    axios
-      .get("http://localhost:5001/CouponDeal")
-      .then((res) => {
-        setPost(res.data);
-      })
-      .catch((err) => {});
+    // axios
+    //   .get("http://localhost:5001/CouponDeal")
+    //   .then((res) => {
+    //     setPost(res.data);
+    //   })
+    //   .catch((err) => {});
+    firebase.database().ref("demo");
+    setPost.on("value", (datasnap) => {
+      console.log(datasnap.val());
+    });
   });
 
   return (
