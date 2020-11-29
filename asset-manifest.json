@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5a32d4d.chunk.css",
-    "main.js": "/static/js/main.b8d5b226.chunk.js",
-    "main.js.map": "/static/js/main.b8d5b226.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3cb834b1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3cb834b1.js.map",
-    "static/css/2.23154d62.chunk.css": "/static/css/2.23154d62.chunk.css",
-    "static/js/2.3cbd5c10.chunk.js": "/static/js/2.3cbd5c10.chunk.js",
-    "static/js/2.3cbd5c10.chunk.js.map": "/static/js/2.3cbd5c10.chunk.js.map",
-    "static/js/3.83194762.chunk.js": "/static/js/3.83194762.chunk.js",
-    "static/js/3.83194762.chunk.js.map": "/static/js/3.83194762.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.23154d62.chunk.css.map": "/static/css/2.23154d62.chunk.css.map",
-    "static/css/main.d5a32d4d.chunk.css.map": "/static/css/main.d5a32d4d.chunk.css.map",
-    "static/js/2.3cbd5c10.chunk.js.LICENSE.txt": "/static/js/2.3cbd5c10.chunk.js.LICENSE.txt"
+    "main.css": "/ideacoupon/static/css/main.d5a32d4d.chunk.css",
+    "main.js": "/ideacoupon/static/js/main.b8d5b226.chunk.js",
+    "main.js.map": "/ideacoupon/static/js/main.b8d5b226.chunk.js.map",
+    "runtime-main.js": "/ideacoupon/static/js/runtime-main.21b0e16d.js",
+    "runtime-main.js.map": "/ideacoupon/static/js/runtime-main.21b0e16d.js.map",
+    "static/css/2.23154d62.chunk.css": "/ideacoupon/static/css/2.23154d62.chunk.css",
+    "static/js/2.c369c922.chunk.js": "/ideacoupon/static/js/2.c369c922.chunk.js",
+    "static/js/2.c369c922.chunk.js.map": "/ideacoupon/static/js/2.c369c922.chunk.js.map",
+    "static/js/3.83194762.chunk.js": "/ideacoupon/static/js/3.83194762.chunk.js",
+    "static/js/3.83194762.chunk.js.map": "/ideacoupon/static/js/3.83194762.chunk.js.map",
+    "index.html": "/ideacoupon/index.html",
+    "static/css/2.23154d62.chunk.css.map": "/ideacoupon/static/css/2.23154d62.chunk.css.map",
+    "static/css/main.d5a32d4d.chunk.css.map": "/ideacoupon/static/css/main.d5a32d4d.chunk.css.map",
+    "static/js/2.c369c922.chunk.js.LICENSE.txt": "/ideacoupon/static/js/2.c369c922.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3cb834b1.js",
+    "static/js/runtime-main.21b0e16d.js",
     "static/css/2.23154d62.chunk.css",
-    "static/js/2.3cbd5c10.chunk.js",
+    "static/js/2.c369c922.chunk.js",
     "static/css/main.d5a32d4d.chunk.css",
     "static/js/main.b8d5b226.chunk.js"
   ]
